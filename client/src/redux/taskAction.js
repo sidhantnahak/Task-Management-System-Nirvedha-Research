@@ -2,11 +2,11 @@
 import {  clear_errors,  delete_task_fail, delete_task_request, delete_task_sucess, getalltask_fail, getalltask_request, getalltask_sucess, gettask_fail, gettask_request, gettask_sucess, register_task_fail, register_task_request, register_task_sucess, update_task_fail, update_task_request, update_task_sucess } from './taskConstants'
 import axios from 'axios';
 
-// const backend_url = "https://task-management-system-atpl.onrender.com"
+const backend_url = "https://nirvedha-research-task-management-system.onrender.com"
 // const backend_url = "http://localhost:4000"
   
 axios.create({
-    baseURL:"http://localhost:4000",
+    // baseURL:"http://localhost:4000",
     withCredentials:true
     
   })
@@ -20,7 +20,7 @@ export const register_task = (data) => async (dispatch) => {
 
 
         const config = { headers: { "Content-Type": "application/json" } };
-        const { data } = await axios.post(`/api/v1/addtask`, { title, description, status }, config)
+        const { data } = await axios.post(`${backend_url}/api/v1/addtask`, { title, description, status }, config)
         dispatch({ type: register_task_sucess, payload: data.sucess });
 
     } catch (error) {
@@ -32,7 +32,7 @@ export const get_task = (id) => async (dispatch) => {
     try {
 
         dispatch({ type: gettask_request })
-        const { data } = await axios.get(`/api/v1/task/${id}`)
+        const { data } = await axios.get(`${backend_url}/api/v1/task/${id}`)
         dispatch({ type: gettask_sucess, payload: data.task });
 
     } catch (error) {
@@ -50,7 +50,7 @@ export const update_task = (id,data) => async (dispatch) => {
 
 
         const config = { headers: { "Content-Type": "application/json" } };
-        const { data } = await axios.put(`/api/v1/task/${id}`, { title:etitle, description:edescription, status:estatus }, config)
+        const { data } = await axios.put(`${backend_url}/api/v1/task/${id}`, { title:etitle, description:edescription, status:estatus }, config)
         dispatch({ type:update_task_sucess, payload: data.sucess });
 
     } catch (error) {
@@ -62,7 +62,7 @@ export const delete_task = (id) => async (dispatch) => {
     try {
 
         dispatch({ type: delete_task_request })
-        const { data } = await axios.delete(`/api/v1/task/${id}`)
+        const { data } = await axios.delete(`${backend_url}/api/v1/task/${id}`)
         dispatch({ type: delete_task_sucess, payload: data.sucess });
 
     } catch (error) {
@@ -75,7 +75,7 @@ export const getall_task = () => async (dispatch) => {
     try {
 
         dispatch({ type: getalltask_request })
-        const { data } = await axios.get(`/api/v1/getalltask`)
+        const { data } = await axios.get(`${backend_url}/api/v1/getalltask`)
         dispatch({ type: getalltask_sucess, payload: data.tasks });
 
     } catch (error) {

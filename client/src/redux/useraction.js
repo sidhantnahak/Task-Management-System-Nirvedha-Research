@@ -4,10 +4,11 @@ import { getuser_fail, getuser_request, getuser_sucess, login_fail, login_reques
 
 
 axios.create({
-    baseURL:"http://localhost:4000",
+    // baseURL:"http://localhost:4000",
     withCredentials:true
     
   })
+  const backend_url = "https://nirvedha-research-task-management-system.onrender.com"
 
   
 export const register = (data) => async (dispatch) => {
@@ -16,7 +17,7 @@ export const register = (data) => async (dispatch) => {
 
         dispatch({ type: register_request });
         const config = { headers: {"Content-Type": "application/json"}};
-        const { data } = await axios.post('/api/v1/signup',
+        const { data } = await axios.post(`${backend_url}/api/v1/signup`,
             {name, email,phone, password},config
         );
 
@@ -36,7 +37,7 @@ export const login = (data) => async (dispatch) => {
 
         dispatch({ type: login_request });
         const config = { headers: {"Content-Type": "application/json"}};
-        const { data } = await axios.post('/api/v1/login',
+        const { data } = await axios.post(`${backend_url}/api/v1/login`,
             { email, password },
             config
         );
@@ -57,7 +58,7 @@ export const Logout=()=>async(dispatch)=>{
     try {
         dispatch({ type: logout_request });
         
-        const { data } = await axios.get('/api/v1/logout')
+        const { data } = await axios.get(`${backend_url}/api/v1/logout`)
         dispatch({ type: logout_sucess,payload:data.sucess});
        
 
@@ -73,7 +74,7 @@ export const getUser=()=>async(dispatch)=>{
         dispatch({ type: getuser_request });
 
         
-        const { data } = await axios.post('/api/v1/me')
+        const { data } = await axios.post(`${backend_url}/api/v1/me`)
         dispatch({ type: getuser_sucess,payload:data.user});
        
 
