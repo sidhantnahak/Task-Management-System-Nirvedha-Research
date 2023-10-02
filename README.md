@@ -14,15 +14,14 @@ Run the development server with  npm start
 
 ## Tech-stack used
 
-Frontend : Html5, Css3, Javascript, React js, Bootstrap, React redux\
-Backend : Node.js, Express.js\
-Database : MongoDB\
+Frontend : Html5, Css3, Javascript, React js, Bootstrap, React redux<br>
+Backend : Node.js, Express.js<br>
+Database : MongoDB<br>
 
 
 
 ## Features
-
-1.User authentication and authorization functionalities\
+1.User authentication and authorization functionalities<br>
 2.Crud Operation On Tasks
    
 **Sample Page Images**
