@@ -1,37 +1,35 @@
 # Ambula Technologies Private Limited
 ***Introduction***
 ---
-This project is a simple Todo App built with the react js and javascript. we show you how to create CRUD operations using express server and build a beautiful UI with React and Bootstrap.
+About
+A Task management system app which has some features like user authentication and authorization functionalities for the users like CRUD operation on tasks.
 
 🚀 Getting Started 
 Clone the repository Install dependencies with npm install 
-Run the development server with npm start
+Run the development server with  npm start
 
 ## Demo
 
-[https://lucent-choux-755732.netlify.app/](https://task-management-system-clone.netlify.app/)
+[https://task-management-system-clone2.netlify.app/](https://task-management-system-clone2.netlify.app/)
 
 ## Tech-stack used
 
-Frontend : Html5, Css3, Javascript, React js, Bootstrap, React redux
-Backend : Node.js, Express.js
-Database : MongoDB
+Frontend : Html5, Css3, Javascript, React js, Bootstrap, React redux<br>
+Backend : Node.js, Express.js<br>
+Database : MongoDB<br>
+
 
 
 ## Features
-
-1. Crud Operation On Tasks
-2. Fetching News And Showing
-3. Adding News Item On Cart
-4. Delete Cart Item
+1.User authentication and authorization functionalities<br>
+2.Crud Operation On Tasks
    
 **Sample Page Images**
- ---
- ![Screenshot (1314)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/task_img_1.png)
- ![Screenshot (1313)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/task_img_2.png)
-  ![Screenshot (1312)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/news_img_1.png)
- ![Screenshot (1311)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/cart_img_1.png)
- 
+ ![ScreenShot](/client/src/Components/images/home_page.png)
+ ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_details.PNG)
+  ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_edit.png)
+ ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-1.png)
+ ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-2.png)
 
 
 
