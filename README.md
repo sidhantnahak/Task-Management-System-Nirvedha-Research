@@ -25,11 +25,11 @@ Database : MongoDB<br>
 2.Crud Operation On Tasks
    
 **Sample Page Images**
- ![ScreenShot](/client/src/Components/images/home_page.png)
+ ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/home_page.PNG)
  ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_details.PNG)
-  ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_edit.png)
- ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-1.png)
- ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-2.png)
+  ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_edit.PNG)
+ ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-1.PNG)
+ ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-2.PNG)
 
 
 
