@@ -5,8 +5,8 @@ About
 A Task management system app which has some features like user authentication and authorization functionalities for the users like CRUD operation on tasks.
 
 🚀 Getting Started 
-Clone the repository Install dependencies with --- npm install 
-Run the development server with --- npm start
+Clone the repository Install dependencies with npm install 
+Run the development server with  npm start
 
 ## Demo
 
@@ -15,9 +15,7 @@ Run the development server with --- npm start
 ## Tech-stack used
 
 Frontend : Html5, Css3, Javascript, React js, Bootstrap, React redux
----
 Backend : Node.js, Express.js
----
 Database : MongoDB
 
 
