@@ -26,7 +26,7 @@ Database : MongoDB<br>
    
 **Sample Page Images**
  ![ScreenShot](/client/src/Components/images/home_page.png)
- ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_details.png)
+ ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_details.PNG)
   ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_edit.png)
  ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-1.png)
  ![ScreenShot](https://github.com/sidhantnahak/Task-Management-System-Nirvedha-Research/blob/main/client/src/Components/images/task_img-2.png)
