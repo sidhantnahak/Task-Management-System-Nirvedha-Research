@@ -7,7 +7,6 @@ import { Logout } from '../../redux/useraction'
 import { useAlert } from 'react-alert'
 
 const Home = ({ setnote,note }) => {
-console.log("home")
     const navigate = useNavigate();
     const alert=useAlert();
     const dispatch=useDispatch();
@@ -39,9 +38,6 @@ useEffect(() => {
                 </Link>
                 <div className='username'>
                     <span style={{color:"white",fontSize:"1.2rem"}}>{user.name}</span>
-                    {/* <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/contact">Contact</Link> */}
                 </div>
                 <Link onClick={closeMenu} id='bar' className="fa-solid fa-bars" />
 
@@ -71,9 +67,6 @@ useEffect(() => {
             </div>
             <div className="buttom_nav_links">
                 <span> {user.name}</span>
-                {/* <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link> */}
             </div>
             <Main note={note}/>
         </>
