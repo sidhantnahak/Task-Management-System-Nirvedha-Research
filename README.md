@@ -26,7 +26,8 @@ Database : MongoDB
 4. Delete Cart Item
    
 **Sample Page Images**
- ---![Screenshot (1314)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/task_img_1.png)
+ ---
+ ![Screenshot (1314)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/task_img_1.png)
  ![Screenshot (1313)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/task_img_2.png)
   ![Screenshot (1312)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/news_img_1.png)
  ![Screenshot (1311)](https://github.com/sidhantnahak/Task_Management_System/blob/main/client/src/Components/images/cart_img_1.png)
