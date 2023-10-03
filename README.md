@@ -1,4 +1,4 @@
-# Ambula Technologies Private Limited
+# Nirvedha-Research
 ***Introduction***
 ---
 About
